@@ -41,9 +41,30 @@ body{
     flex-direction: column;
     color: white;
     margin-top: 10vh;
+    cursor: pointer;
 }
 
 .muerto{
     color: red;
     font-size: 70px;
+}
+
+.muycerca{
+    color: red;
+}
+
+.cerca{
+    color:orangered;
+}
+
+.mediocerca{
+    color: yellow;
+}
+
+.lejos{
+    color: yellowgreen;
+}
+
+.muylejos{
+    color: green;
 }
