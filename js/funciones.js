@@ -14,7 +14,7 @@ let calcularDistanciaDelPuntero = (evento, posicion) => {
 
 
 let avisoDistancia = (distancia) => {
-    if (distancia < 20) {
+    if (distancia < 35) {
         let bosque = document.querySelector(".bosque");
         bosque.removeAttribute("src");
         bosque.setAttribute("src", "imgs/json.jpg");

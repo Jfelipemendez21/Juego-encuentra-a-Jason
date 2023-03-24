@@ -15,7 +15,7 @@ bosque.addEventListener("click", (e)=>{
 
     let Json= document.querySelector(".cercania");
     Json.innerHTML= aviso; 
-    if(distancia<20){
+    if(distancia<35){
         setTimeout(()=>{
             location.reload();
         },4000)
